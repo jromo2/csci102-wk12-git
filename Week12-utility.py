@@ -23,3 +23,5 @@ def Union(list_1,list_2):
     pass
 def Intersection(a_list1,a_list2):
     pass
+def NotIn(another_list,another_other_list):
+    pass
