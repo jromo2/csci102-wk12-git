@@ -15,3 +15,5 @@ def LoadFile(filename):
     pass
 def UpdateString(string1,string2,integer0):
     pass
+def FindWordCount(a_list,a_string):
+    pass
