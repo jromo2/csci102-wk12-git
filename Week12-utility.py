@@ -11,3 +11,5 @@ Week 12 Part A
 def PrintOutput(string):
     print('OUTPUT ',string)
     
+def LoadFile(filename):
+    pass
