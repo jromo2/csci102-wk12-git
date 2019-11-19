@@ -21,3 +21,5 @@ def ScoreFinder(list1,list2,string0):
     pass
 def Union(list_1,list_2):
     pass
+def Intersection(a_list1,a_list2):
+    pass
