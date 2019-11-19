@@ -1,1 +1,5 @@
-# csci102-wk12-git
+# Week 12 Part A 
+# Git Assignment
+**Author:** Jacob Romo
+**Section:** Section A
+
