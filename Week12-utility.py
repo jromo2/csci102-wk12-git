@@ -19,3 +19,5 @@ def FindWordCount(a_list,a_string):
     pass
 def ScoreFinder(list1,list2,string0):
     pass
+def Union(list_1,list_2):
+    pass
