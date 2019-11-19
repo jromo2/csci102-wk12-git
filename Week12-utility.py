@@ -13,3 +13,5 @@ def PrintOutput(string):
     
 def LoadFile(filename):
     pass
+def UpdateString(string1,string2,integer0):
+    pass
