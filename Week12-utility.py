@@ -4,10 +4,6 @@ CSCI 102 Section A
 Week 12 Part A
 """
 
-################################################
-########   Function 1 : PrintOutput    #########
-################################################
-
 def PrintOutput(string):
     print('OUTPUT ',string)
     
@@ -54,11 +50,11 @@ def Intersection(a_list1,a_list2):
                 list_3.append(item)
     return list_3
 def NotIn(another_list,another_other_list):
-    pass
-
-players = ["Mary", "Cody", "Joe", "Jill", "Xai", "Bodo"]
-
-players2 = ["Melvin", "Martian", "Baka", "Xai", "Cody"]
-
-
+    list_3 = []
+    for item in another_list:
+        if item not in another_other_list:
+            list_3.append(item)
+    return list_3
+    
+ 
 
