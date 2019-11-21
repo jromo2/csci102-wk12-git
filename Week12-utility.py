@@ -17,6 +17,12 @@ def LoadFile(filename):
         return lines
     
 def UpdateString(string1,string2,integer0):
+    integer0 =int(integer0)
+    new_str = ''
+    string_1 = list(string1)
+    string_1[integer0] = string2
+    return (new_str.join(string_1))
+
     pass
 def FindWordCount(a_list,a_string):
     pass
@@ -28,4 +34,5 @@ def Intersection(a_list1,a_list2):
     pass
 def NotIn(another_list,another_other_list):
     pass
+
 
