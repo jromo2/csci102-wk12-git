@@ -28,7 +28,16 @@ def FindWordCount(a_list,a_string):
     return the_count
 
 def ScoreFinder(list1,list2,string0):
-    pass
+    x = False
+    for player in list1:
+        if player.casefold() == string0.casefold():
+            i = list1.index(player)
+            score = list2[i]
+            x = True
+            return ('OUTPUT %s got a score of %d' % (player, score))
+    if x == False:
+        return ('OUTPUT player not found')
+    
 def Union(list_1,list_2):
     pass
 def Intersection(a_list1,a_list2):
