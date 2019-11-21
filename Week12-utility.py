@@ -12,7 +12,10 @@ def PrintOutput(string):
     print('OUTPUT ',string)
     
 def LoadFile(filename):
-    pass
+    with open(filename, 'r') as filename:
+        lines = filename.readlines()
+        return lines
+    
 def UpdateString(string1,string2,integer0):
     pass
 def FindWordCount(a_list,a_string):
@@ -25,3 +28,4 @@ def Intersection(a_list1,a_list2):
     pass
 def NotIn(another_list,another_other_list):
     pass
+
