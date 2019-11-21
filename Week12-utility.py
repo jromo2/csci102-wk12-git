@@ -24,7 +24,9 @@ def UpdateString(string1,string2,integer0):
     return (new_str.join(string_1))
 
 def FindWordCount(a_list,a_string):
-    pass
+    the_count = a_list.count(a_string)
+    return the_count
+
 def ScoreFinder(list1,list2,string0):
     pass
 def Union(list_1,list_2):
