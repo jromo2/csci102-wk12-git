@@ -37,12 +37,21 @@ def ScoreFinder(list1,list2,string0):
             return ('OUTPUT %s got a score of %d' % (player, score))
     if x == False:
         return ('OUTPUT player not found')
-    
+        
 def Union(list_1,list_2):
-    pass
+    list_3 = []
+    for item in list_1:
+        for obj in list_2:
+            if item == obj:
+                list_2.remove(obj)
+    list_3 = list_1 + list_2
+    return list_3
 def Intersection(a_list1,a_list2):
     pass
 def NotIn(another_list,another_other_list):
     pass
+
+
+
 
 
