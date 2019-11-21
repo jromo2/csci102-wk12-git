@@ -23,7 +23,6 @@ def UpdateString(string1,string2,integer0):
     string_1[integer0] = string2
     return (new_str.join(string_1))
 
-    pass
 def FindWordCount(a_list,a_string):
     pass
 def ScoreFinder(list1,list2,string0):
